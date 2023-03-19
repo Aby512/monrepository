@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: url(Tourisme.webp);
+    height: 60vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px;
+}
+nav ul li a{
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    margin-top: 20px;
+}
+
+a.active{
+    color:blue ;
+        background-color: transparent;}
+
+a:hover{
+    color:plum;
+    background-color: transparent;}
+
+
+
+nav ul li a {
+    font-size: 17px;
+}
+.H2 h2{
+    color:black ;
+    text-align: left;
+    padding: 50px;
+    font-size: 200%;
+}
+.H3 h3{
+    font-size: 28px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 0px;
+    margin-top: 20px;
+    
+    
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid aliceblue;
+    margin-top: 48px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+
+.Btn{
+    width: 100px;
+    height: 40px;
+    background:  blue;
+    border: 2px solid  blue;
+    margin-top: 48px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+.Btn :focus{
+    outline: none;
+}
+.srch :focus{
+    outline: none;
+    }
+    .acc{
+        color: black;
+        font-size: 20px;
+        background-color:white;
+        padding: 10px;
+    }
+    .brj{
+        color: black;
+        font-size: 20px;
+        background-color: white;
+        padding: 10px;
+    
+    }
+    
+    .lib{
+        color: black;
+        font-size: 20px;
+        background-color:white ;
+        padding: 10px;
+    }
+    .rom{
+        color: black;
+        font-size: 20px;
+        background-color:white;
+        padding: 10px;
+    }
+    .big{
+        color: black;
+        font-size: 20px;
+        background-color:white; 
+        padding: 10px;
+    }
+    .img{
+        width: 50%;
+        height: 80vh;
+    }
+    .mag{
+        width: 50%;
+    }
+    .mor{
+        width: 50%;
+        
+    }
+    .ben{
+        width: 50%;
+    }
+    .kha{
+        width: 50%;
+    }
+    .paris{
+        width: 100%;
+        height: 100vh;
+    }

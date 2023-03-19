@@ -1,0 +1,84 @@
+*{
+    background-color: antiquewhite;
+}
+.col h2{
+    font-size: 50px;
+}
+.image{
+    width: 50%;
+    height: 50vh;
+    float: left;
+}
+.class{
+    font-size: 25px;
+}
+.lis{
+   width: 45%;
+   height: 50vh;
+    padding-left: 30%;
+}
+.hist{
+    font-size: 25px;
+}
+.puce{
+    font-size: 24px;
+}
+.ht{
+    font-size: 28px;
+}
+.HT{
+    font-size: 28px;
+}
+.edif{
+    font-size: 25px;
+}
+.colise{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+@keyframes mesimages{
+    0%{
+        transform: translateX(0);       
+    }
+    25%{
+        transform: translateX(-600px);
+    }
+    50%{
+        transform: translateX(-1200px);
+    }
+    75%{
+        transform: translateX(-1800px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+#photos{
+    overflow: hidden;
+    width: 600px;;
+}
+
+.ph1{
+    width: 600px;
+    height: 60vh;
+}
+.ph2{
+    width: 600px;
+    height: 60vh;
+}
+.ph3{
+    width: 600px;
+    height: 60vh;
+}
+.ph4{
+    width: 600px;
+    height: 60vh;
+}
+.trans{
+    font-size: 28px;
+}
+.vid{
+    padding-left: 25%;
+}

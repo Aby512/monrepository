@@ -1,0 +1,59 @@
+
+
+.tit h1{
+    font-size: 28px;
+}
+.new{
+    width: 50%;
+    height: 60vh;
+}
+.new{
+    float:left;
+}
+.class{
+    font-size: 26px;
+}
+.intro{
+    font-size: 35px;
+}
+.ima{
+    width: 50%;
+    height: 60vh;
+}
+.stat{
+    font-size: 26px;
+}
+.hist{
+    font-size: 26px;
+}
+.para{
+    font-size: 26px;
+}
+.how{
+    width: 50%;
+    height: 60vh;
+    padding-left: 25%;
+}
+.tour{
+    font-size: 26px;
+}
+.vid{
+    padding-left: 25%;
+}
+.mag{
+    width: 60%;
+    height: 60vh;
+    padding-left: 20%;
+}
+
+
+.im{
+    display: flex;
+}
+    
+   
+  
+   
+
+
+

@@ -1,0 +1,66 @@
+*{
+    background-color: rgb(206, 227, 246);
+}
+.ben{
+    font-family: 250%;
+    
+
+}
+.image{
+    width: 500px;
+    height: 60vh;
+   }
+.mag{
+    width: 500px;
+    height: 60vh;
+}
+#mage{
+    overflow: hidden;
+    width: 500px;
+    float: left;
+}
+.img{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+@keyframes mesimages{
+    0%{
+        transform: translateX(0); 
+}
+    50%{
+        transform: translateX(-500px);  
+}
+    100%{
+        transform: translateX(0);
+}
+}
+.prés{
+    font-size: 30px;
+}
+.para{
+    font-size: 25px;
+}
+.lond{
+    width: 50%;
+    height: 60vh;
+    padding-left: 25%;
+}
+.london{
+    width: 60%;
+    height: 60vh;
+    padding-left: 20%;
+}
+.clo{
+    padding-left: 25%;
+}
+.hist{
+    font-size: 30px;
+}
+.par{ 
+    font-size:26px ;
+}
+.Bib{
+    font-size: 30px;
+}

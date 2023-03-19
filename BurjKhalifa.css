@@ -1,0 +1,89 @@
+.header{
+    height: 50vh;
+    width: 100%;
+    background:url(images\ \(10\).jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: black;
+   font-size: 0px;
+  
+
+}
+.header h1{
+    font-size: 40px;
+}
+.night{
+    width: 600px;
+    height: 60vh;
+    float: right;
+}
+.para{
+    font-size: 22px;
+}
+.prés{
+    font-size: 30px;
+    text-align: center;
+}
+.proj{
+    font-size: 30px;
+    text-align: center;
+}
+.const{
+    font-size: 22px;
+}
+#photos{
+    overflow: hidden;
+    width: 500px;
+    margin-left: 30%;
+    
+}
+.images{
+    display: flex;
+    animation-duration: 25s;
+    animation-name: mesimages;
+    animation-iteration-count: infinite;
+}
+.im{
+    width: 600px;
+    height: 60vh;
+}
+.im1{
+    width: 600px;
+    height: 60vh;
+}
+.im2{
+    width: 500px;
+    height: 60vh;
+}
+.im3{
+    width: 600px;
+    height: 60vh;
+}
+.im4{
+    width: 600px;
+    height: 60vh;
+}
+@keyframes mesimages{
+    0%{
+        transform: translateX(0);       
+    }
+    20%{
+        transform: translateX(-500px);
+    }
+    40%{
+        transform: translateX(-1000px);
+    }
+    60%{
+        transform: translateX(-1500px);
+    }
+    80%{
+        transform: translateX(-2000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.TOUR{
+    font-size: 22px;
+}
